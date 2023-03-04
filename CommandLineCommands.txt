@@ -1,0 +1,43 @@
+----------------------------------------General Windows commands--------------------------
+dir--> to check folder or directory
+mkdir foldername--> to create a folder
+mkdir foldername1 folder2 .. --> to create multiple folder
+rmdir--> to remove a empty directory
+rmdir /s --> to remove a not empty folder
+cd--> to change directory
+cd .. --> to back previous folder/directory
+cd folder_name --> to goto that folder
+eche >/type nul > file name --> to create a file
+eche >/type nul > f1 f2 f3.. --> to create multiple file
+del file.extnsn --> to delete a file
+cls--> clear screen
+command/? --> to check task of the command. 
+filename--> to open a file
+echo write text > filename --> to write anything inside a file.
+start code filename --> to open a file using vs code.
+type filename --> to read a file.
+echo write text >> filename --> to write another line of the text
+dir/a --> to show hidden folder
+dir a/d: --> to show all directories
+dir a/h: --> to show all hidden files
+--------------------------------------------Git and Github commands--------------------------
+git config --global user.name "set name" --> to set a github user name
+git config --global user.email "set email" --> to set a github user email
+git config user.name --> to check username
+git config user.email --> to check email
+git config --list --> to check username and email
+git config user.name "new username" --> to change username same as email
+git init --> intialize git (inside the folder)---initial stage
+git status--> to check status
+git add filename --> to add file into staging area
+git add .  --> to add multiple file at once
+git restore --> updated file move to previous situation
+git diff --> to check inside where data is added/changed
+git commit -m "message" --> used to add local repository
+git log --> used to see commit history
+git add . && git commit -m "message" --> add and commit at a time
+git reset --soft HEAD^ --> is used to undo recent commit and now staying staging area
+git reset HEAD^ --> is used to undo recent commit and remove from staging area and staying on untrack area
+git reset --hard HEAD^ --> is used to delete all commit and staying on git init
+
+
