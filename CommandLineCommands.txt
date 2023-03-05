@@ -1,4 +1,8 @@
+
+
 ----------------------------------------General Windows commands--------------------------
+
+
 dir--> to check folder or directory
 mkdir foldername--> to create a folder
 mkdir foldername1 folder2 .. --> to create multiple folder
@@ -20,7 +24,15 @@ echo write text >> filename --> to write another line of the text
 dir/a --> to show hidden folder
 dir a/d: --> to show all directories
 dir a/h: --> to show all hidden files
---------------------------------------------Git and Github commands--------------------------
+
+
+
+
+
+--------------------------------------------Git and Github commands----------------------------------------------------
+
+
+
 git config --global user.name "set name" --> to set a github user name
 git config --global user.email "set email" --> to set a github user email
 git config user.name --> to check username
@@ -32,12 +44,36 @@ git status--> to check status
 git add filename --> to add file into staging area
 git add .  --> to add multiple file at once
 git restore --> updated file move to previous situation
+git rm --> used to remove unstaging area from staging area
 git diff --> to check inside where data is added/changed
 git commit -m "message" --> used to add local repository
+git commit -am "message"
 git log --> used to see commit history
 git add . && git commit -m "message" --> add and commit at a time
 git reset --soft HEAD^ --> is used to undo recent commit and now staying staging area
 git reset HEAD^ --> is used to undo recent commit and remove from staging area and staying on untrack area
 git reset --hard HEAD^ --> is used to delete all commit and staying on git init
+git checkout commitID/HEAD-commit number --> used to return back one commit to another
+git checkout master --> to return back previous commit
+git log --oneline --> is used to show 1st 7digit of id and branch, message
+.gitignore -->  ignore important file to commit which is not shareable.
+git clean(self study)
 
+
+git remote --> check remote connection
+
+git remote -v --> check remote connection with url
+git remote add name <remote url> -->
+git clone url --> is used to create a clone from remote repo to local
+git push -u origin main --> used to push files and update local to remote
+git pull --> used to download file remote to local
+git branch --> to check branches
+git branch branceName --> to create branch
+git checkout branceName --> to move one branch to another
+git branch -d branchnae --> to delete branch
+git checkout -b branceName --> to create and move to new branch at once
+git merge branchName --> to merge branchName into the main branch
+
+Fast forward/2 ways merging 
+2 ways merging
 
