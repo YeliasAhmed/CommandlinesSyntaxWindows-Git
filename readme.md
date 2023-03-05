@@ -1,1 +1,1 @@
-# practicing git
+# practicing git and windows commands
